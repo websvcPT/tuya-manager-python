@@ -78,7 +78,7 @@ Included a bash helper to minimize the arguments when calling the script from 3r
 ```bash
 #copy the template
 # action.sh is ignored by git
-cp action-tpl.sh action.sh
+cp tpl-action.sh action.sh
 chmod +x action.sh
 
 # update action.sh and enter your device data
