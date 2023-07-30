@@ -134,3 +134,4 @@ builds/
 NOTES.md
 status.py
 snapshot.json
+action.sh

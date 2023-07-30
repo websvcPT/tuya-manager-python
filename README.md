@@ -70,3 +70,17 @@ optional arguments:
   --status-filter-key STATUS_FILTER_KEY, --sfk STATUS_FILTER_KEY
                         Key to filter device status out of socket output data
 ```
+
+## Bash helper
+
+Included a bash helper to minimize the arguments when calling the script from 3rd party apps.
+
+```bash
+#copy the template
+# action.sh is ignored by git
+cp action-tpl.sh action.sh
+chmod +x action.sh
+
+# update action.sh and enter your device data
+nano action.sh
+```
