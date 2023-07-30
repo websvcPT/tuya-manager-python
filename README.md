@@ -84,3 +84,18 @@ chmod +x action.sh
 # update action.sh and enter your device data
 nano action.sh
 ```
+
+**Usage example**:
+
+```bash
+~/tuya-manager-python $ ./action.sh status
+True
+~/tuya-manager-python $ ./action.sh ON
+True
+~/tuya-manager-python $ ./action.sh OFF
+False
+~/tuya-manager-python $ ./action.sh status
+False
+~/tuya-manager-python $ ./action.sh ON
+True
+```
